@@ -27,24 +27,75 @@
         <div class="col-12">
             <h1 class="my-4">Lucky - Kávéfajták</h1>
         </div>
-        <div class="col-lg-4"><div class="kave">
+        <div class="col-lg-4 col-md-6"><div class="kave">
             <img src="/img/coffees/lattemacchiato.jpg" alt="" class="img-fluid">
             <h2>Latte Macchiato</h2>
         </div></div>
-        <div class="col-lg-4">
+        <a href="#" data-toggle="modal" data-target="capuccinomodal"><div class="col-lg-4 col-md-6"><div class="kave">
             <img src="/img/coffees/capuccino.jpg" alt="" class="img-fluid">
             <h2>Capuccino</h2>
-        </div>
-        <div class="col-lg-4">
+        </div></div></a>
+        <div class="col-lg-4 col-md-6"><div class="kave">
             <img src="/img/coffees/espresso.jpg" alt="" class="img-fluid">
             <h2>Espresso</h2>
-        </div>
-        <div class="col-lg-4">
+        </div></div>
+        <div class="col-lg-4 col-md-6"><div class="kave">
             <img src="/img/coffees/americano.jpg" alt="" class="img-fluid">
             <h2>Americano</h2>
-        </div>
+        </div></div>
     </div>
    </div>
+
+   <footer class="container">
+    <div class="row">
+        <div class="col-sm-6 col-lg-4 offset-lg-1">
+            <h2 class="mt-3">Kapcsolat</h2>
+            <ul>
+                <li>☕ Lucky kávézó</li>
+                <li>✉️ lucky@kavezo.hu</li>
+                <li>📞 +36 777 777</li>
+            </ul>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+            <h2 class="mt-3">Kávé magazin</h2>
+            <p>Iratkozzon fel a kávé magazinunkra!</p>
+            <form>
+                <input type="text">
+                <input type="button" value="Feliratkozás">
+            </form>
+        </div>
+    </div>
+   </footer>
+    
+    <div class="modal fade" id="capuccinomodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Capuccino</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img src="./img/coffees/capuccino.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-sm-8">
+                            <h2>Capuccino</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, corrupti quod quos, deleniti qui aut tempora inventore hic nulla recusandae minus saepe accusantium amet cum, error libero voluptas odio. Molestiae?</p>
+                            <p>Ullam, ex iste, vero doloribus nulla dolor commodi quas consequatur ad numquam molestiae sed, reprehenderit laudantium unde non beatae facilis soluta ducimus molestias. Illo quod ipsa, similique quo dolorem culpa?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Bezárás</button>
+            </div>
+        </div>
+        </div>
+    </div>
 
 </body>
 </html>

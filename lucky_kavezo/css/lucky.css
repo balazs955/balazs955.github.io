@@ -44,3 +44,13 @@ h1{
     margin-bottom: 1rem;
     font-variant: small-caps;
 }
+footer{
+    background-color: #1f5b25;
+    color: #fff;
+}
+footer li{
+    list-style-type: none;
+}
+.modal-content{
+    background-color: #fbefdb;
+}
